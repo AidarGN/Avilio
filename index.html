@@ -8,7 +8,9 @@
   <title>Avilio</title>
 </head>
 <body>
-  <section class="header">
+
+  <!-- Header -->
+  <header class="header">
     <div class="container">
       <div class="header__flex">
         <div class="header__logo">
@@ -24,15 +26,156 @@
         </nav>
         <div class="header__link link">
           <a href="#" class="link__sign-in">Sign in</a>
-          <button class="link__btn btn"><a href="" class="link__log-in">Start Trial</a></button>
+          <button class="header__btn btn"><a href="#" class="btn__link">Start Trial</a></button>
         </div>
-        <div class="header__burger">
-          <span></span>
+        <div class="header__burger menu">
+          <input id="menu__toggle" type="checkbox">
+          <label class="menu__btn" for="menu__toggle">
+            <span class="burger__span"></span>
+          </label>
         </div>
       </div>
     </div>
-  </section>
-    
+  </header>
+
+  <!-- Main -->
+  <main>
+
+    <!-- About section -->
+    <section class="about">
+      <div class="container">
+        <h1 class="about__title">Be aware,<br>Manage well.</h1>
+        <p class="about__text">
+          Everyone experiences stress in different ways.
+          Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+        </p>
+        <button class="about__btn btn"><a href="#" class="btn__link">Find Your Way</a></button>
+      </div>
+    </section>
+
+    <!-- How it works section -->
+    <section class="how">
+      <div class="container">
+
+        <!-- Top content -->
+        <div class="how__flex-top flex-top">
+          <div class="flex-top__left flex-left">
+            <span class="flex-left__span">How it works</span>
+            <h2 class="flex-left__title h2__title">
+              Understand & Release<br>
+              the stress in 3 steps
+            </h2>
+          </div>
+          <div class="flex-top__rigth flex-right">
+            <p class="flex-right__text">
+              Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness,sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, andguide you in how to manage stress.
+            </p>
+          </div>
+        </div>
+
+        <!-- Bottom content -->
+        <div class="how__flex-bottom flex-bottom">
+          <div class="flex-bottom__item bottom-item">
+              <div class=""><h3 class="bottom-item__title">01<span class="bottom-item__span">Personalize</span></h3>
+                <p class="bottom-item__text">
+                  Answer a quick survey about how you express yourself, what causes you stress, and what area would youlike to work on. This way, we can fully personalize your journal!
+                </p></div>
+            <div class=""><img class="bottom-item__img" src="img/card1.png" alt="Картинка"></div>
+          </div>
+          <div class="flex-bottom__item bottom-item">
+            <div class=""><h3 class="bottom-item__title">02<span class="bottom-item__span">Write & Understand</span></h3>
+              <p class="bottom-item__text">
+                Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!
+              </p></div>
+            <div class=""><img class="bottom-item__img" src="img/card2.png" alt="Картинка"></div>
+          </div>
+          <div class="flex-bottom__item bottom-item">
+            <div class=""><h3 class="bottom-item__title">03<span class="bottom-item__span">Alivio!</span></h3>
+              <p class="bottom-item__text">
+                Now you are aware, and have a way to manage and overcome your own stress.
+                What are you waiting for? Alivio today!
+              </p></div>
+            <div class=""><img class="bottom-item__img" src="img/card3.png" alt="Картинка"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story section -->
+    <section class="story">
+      <div class="container">
+        <div class="story__flex">
+
+          <!-- Left -->
+          <div class="story__flex-left">
+            <h2 class="story__flex-title h2__title">
+              Let's hear about<br>
+              Kayla's success story
+            </h2>
+            <p class="story__text">
+              See how well Alivio works in a real customer’s life. 
+            </p>
+            <button class="story__btn btn"><a href="#" class="btn__link">Let’s get started</a></button>
+          </div>
+
+          <!-- Right -->
+          <div class="story__flex-right">
+            <a class="story__video-link" href="#">
+              <img class="story__videp-img" src="img/video-bg.png" alt="Иконка">
+              <img class="story__play-icon" src="img/play.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our product section -->
+    <section class="product">
+      <div class="container">
+        <div class="product__flex">
+          <div class="product__flex-left">
+            <img class="product__img" src="img/about.png" alt="Картинка">
+            <div class="product__card card">
+              <h5 class="card__h5">Customized For</h5>
+              <hr class="card__line">
+              <img class="card__img" src="img/about-card.png" alt="Аватар">
+              <span class="card__span">Mikayla</span>
+              <h4 class="card__h4">Your custom contents</h4>
+              <ul class="card__list">
+                <li class="card__item">Understand Your Stress</li>
+                <li class="card__item">Anger Management</li>
+              </ul>
+            </div>
+          </div>
+          <div class="product__flex-right">
+            <span class="product__span">Our product</span>
+            <h2 class="flex-left__title h2__title">
+              You tell us your stress,<br>
+              We make your diary
+            </h2>
+            <p class="about__text">
+              Everyone experiences stress in different ways.
+              Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+            </p>
+            <button class="product__btn btn"><a href="#" class="btn__link">Find Your Way</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__img">
+        <img src="img/facebook.svg" alt="Иконка" class="footer__icon">
+        <img src="img/vk.svg" alt="Иконка" class="footer__icon">
+        <img src="img/youtube.svg" alt="Иконка" class="footer__icon">
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Script -->
   <script src="js/main.js"></script>
 </body>
 </html>
